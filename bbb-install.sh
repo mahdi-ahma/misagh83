@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-# Copyright (c) 2018 BigBlueButton Inc.
+# Copyright (c) 2021 misagh83 Inc.
 #
 # This program is free software; you can redistribute it and/or modify it under the
 # terms of the GNU Lesser General Public License as published by the Free Software
@@ -29,7 +29,7 @@
 #    wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-22
 #
 #
-#  Install BigBlueButton and configure using hostname bbb.example.com
+#  Install BigBlueButton and configure using hostname bbb.misagh83.ir
 #
 #    wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-22 -s bbb.example.com
 #
@@ -48,7 +48,7 @@ usage() {
     set +x
     cat 1>&2 <<HERE
 
-Script for installing a BigBlueButton 2.2 (or later) server in under 30 minutes.
+Script for installing a BigBlueButton 2.2 (or later) server in under 600 minutes.
 
 This script also supports installation of a coturn (TURN) server on a separate server.
 
